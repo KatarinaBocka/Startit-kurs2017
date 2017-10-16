@@ -1,0 +1,65 @@
+body {
+    padding: 2em 3em;
+}
+.container {
+    position: relative;
+    top: 10em;
+}
+.container .box{
+    border: 1px solid red;
+    padding: 10px;
+    margin: 30px 15px;
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+}
+/* -- All in one row -- */
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    left: 5em;
+    background-color: red;
+}
+
+/* -- 3 in one row -- */
+@media only screen and (min-width:1000px) and (max-width:1305px) {
+    .container .box{
+        border: 1px solid coral;
+    }
+    .circle {
+        background-color: coral;
+    }
+}
+/* -- 1 and 2 in one row -- */
+@media only screen and (min-width:321px) and (max-width:1018px) {
+    .container .box{
+        border: 1px solid cyan;
+    }
+    .circle {
+        background-color: cyan;
+    }
+}
+/* -- 1 in one row, small... -- */
+@media only screen and (max-width:420px) {
+
+    .container .box{
+        border: 1px solid green;
+        padding: 8px;
+        margin: 30px 15px;
+        width: 180px;
+        height: 150px;
+    }
+
+    .circle {
+        background-color: green;
+        width: 70px;
+        height: 70px;
+        top: -45px;
+        left: 3.5em;
+    }
+}
+
+

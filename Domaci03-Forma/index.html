@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html UTF-8>
     <head>
-        <meta charset="UTF-8">
         <title>Domaci Forma</title>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
@@ -10,73 +9,73 @@
     <body>
         <div class="image-box"></div>
         <header class="box-2">
-            <ul>
-                <li><a href="#" onclick="plusDivs(1)">Account</a></li>
-                <li><a href="#" onclick="plusDivs(1)">Personal</a></li>
-                <li><a href="#" onclick="plusDivs(1)">Photo</a></li>
-                <li><a href="#" onclick="plusDivs(1)">Finish</a></li>
-            </ul>
-            <div class="container">
-                <h3 class="title">Registration form<span class="first-line"></span></h3>
-                <div class="slider">
-                    <form action="post" class="slides">
-                        <label for="username">Username:</label>
-                        <input type="text">
-                        <label for="password">Password:</label>
-                        <input type="password">
-                        <label for="password">Repeat password:</label>
-                        <input type="password">
-                    </form>
-                    <form action="post" class="slides">
-                        <label for="name">Name:</label>
-                        <input type="text">
-                        <label for="email">Email:</label>
-                        <input type="email">
-                        <label for="birthday">Birthday:</label>
-                        <input type="text">
-                       
-                        <div class="group">
-                            <label for="sex">I am:</label>
-                            <input type="radio" value="male">Male
-                            <input type="radio" value="female">Female
-                        </div>
-                    </form>
-                    <form action="post" class="slides">
-                       <div class="photoFile"></div>
-                       <input type="file" class="custom-file-input" id="browseFile">
-                       <input type="file" class="custom-file-input" id="takePhoto">
-                    </form>
-                    <form action="post" class="slides">
-                        <div class="finish">
-                            <div class="image"></div>
-                            <div class="wrapp">
-                            <div class="details">
-                                <h1>Katarina Čizmar</h1>
-                                <h2>26 years old</h2>
-                                <p>Add a few more things if you want...</p>
-                            </div>
-                            <div class="group">
-                                <label><i class="fa fa-envelope-o" aria-hidden="true"></i></label>
-                                <input type="email" for="email"> E-mail address.
-                            </div>
-                            <div class="group">
-                                <label><i class="fa fa-phone" aria-hidden="true"></i></label>
-                                <input type="text" for="phone" name="phone"> Phone number.
-                            </div>  
-                            <div class="group">
-                                <label><i class="fa fa-map-marker" aria-hidden="true"></i></label>
-                                <input type="text" for="location" name="location"> Curent location.
-                            </div>
-                            </div>
-                              
-                        </div>
-                    </form>
-                </div> <span class="second-line"></span>
-                <button class="nextStepBtn" onclick="plusDivs(1)">Next step</button>
-            </div>       
+                   <ul>
+                       <li><a href="#" onclick="plusDivs(1)">Account</a></li>
+                       <li><a href="#" onclick="plusDivs(1)">Personal</a></li>
+                       <li><a href="#" onclick="plusDivs(1)">Photo</a></li>
+                       <li><a href="#" onclick="plusDivs(1)">Finish</a></li>
+                   </ul>
+                   <div class="container">
+                        <h3 class="title">Registration form<span class="first-line"></span></h3>
+                        <div class="slider">
+                            <form action="post" class="slides">
+                                <label for="username">Username:</label>
+                                <input type="text">
+                                <label for="password">Password:</label>
+                                <input type="password">
+                                <label for="password">Repeat password:</label>
+                                <input type="password">
+                            </form>
+                            <form action="post" class="slides">
+                                <label for="name">Name:</label>
+                                <input type="text">
+                                <label for="email">Email:</label>
+                                <input type="email">
+                                <label for="birthday">Birthday:</label>
+                                <input type="text">
+                               
+                                <div class="group">
+                                    <label for="sex">I am:</label>
+                                    <input type="radio" value="male">Male
+                                    <input type="radio" value="female">Female
+                                </div>
+                             
+                            </form>
+                            <form action="post" class="slides">
+                               <div class="photoFile"></div>
+                               <input type="file" class="custom-file-input" id="browseFile">
+                               <input type="file" class="custom-file-input" id="takePhoto">
+                            </form>
+                            <form action="post" class="slides">
+                                <div class="finish">
+                                    <div class="image"></div>
+                                    <div class="wrapp">
+                                    <div class="details">
+                                        <h1>Katarina Čizmar</h1>
+                                        <h2>26 years old</h2>
+                                        <p>Add a few more things if you want...</p>
+                                    </div>
+                                    <div class="group">
+                                        <label><i class="fa fa-envelope-o" aria-hidden="true"></i></label>
+                                        <input type="email" for="email"> E-mail address.
+                                    </div>
+                                    <div class="group">
+                                        <label><i class="fa fa-phone" aria-hidden="true"></i></label>
+                                        <input type="text" for="phone" name="phone"> Phone number.
+                                    </div>  
+                                    <div class="group">
+                                        <label><i class="fa fa-map-marker" aria-hidden="true"></i></label>
+                                        <input type="text" for="location" name="location"> Curent location.
+                                    </div>
+                                    </div>
+                                      
+                                </div>
+                            </form>
+                        </div> <span class="second-line"></span>
+                        <button onclick="plusDivs(1)">Next step</button>
+                    </div>       
         </header>
 
         <script src="js/script.js"></script>
-        
     </body>
 </html>

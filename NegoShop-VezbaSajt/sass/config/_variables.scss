@@ -1,0 +1,30 @@
+/*-~- variables -~-*/
+// Font
+$font-main: sans-serif;
+$font-sec: serif;
+
+// Colors
+$black: #000;
+$white: #fff;
+$grey: #9d9fa2;
+
+// Durations
+$fastDuration: .1s;
+$mediumDuration: .3s;
+$slowDuration: .6s;
+
+/*-~- breakpoints -~-*/
+$tablet-min: '600px';
+$tablet-max: '1024px';
+
+$nav-background: green;
+$nav-height: 10px;
+
+
+// Navigation Variables
+$content-width: 1200px;
+//$mobbreakpoint: 800px;
+$nav-height: 70px;
+$nav-background: #336699;
+$nav-font-color: #ffffff;
+$link-hover-color: #2581DC;

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <!--Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <!-- Font-awesome-->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!-- Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Slider -->
+        <link rel="stylesheet" href="nivo-slider.css" type="text/css" />  
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>  
+        <script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+                <div class="navbar navbar-fixed-top" role="navigation" >
+                        <div class="logo-container">
+                            <a href="#">
+                                <img src="images/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="box box-left">
+                           <ul>
+                               <li class="active"><a href="#">Home</a></li>
+                               <li><a href="#">Shop</a></li>
+                               <div class="popup" style="width:1020px; display: none">
+                                   <div class="inner-popup">
+                                       <div class="block" style="width: 1020px;">
+                                           <div class="column col1 firstCol">
+                                               <div class="itemMenu level-0">
+                                                   <a class="itemMenuName" href="#"><span>Accessories</span></a>
+                                               </div>
+                                               <div class="itemSubMenu level-0">
+                                                   <div class="itemMenu level-0">
+                                                       <a href="#" class="itemMenuName level-0"><span>Hoodies</span></a>
+                                                       <a href="#" class="itemMenuName level-0"><span>Jackets & Coats</span></a>
+                                                       <a href="#" class="itemMenuName level-0"><span>Sweaters</span></a>
+                                                       <a href="#" class="itemMenuName level-0"><span>Tops & Tees</span></a>
+                                                    </div>  
+                                               </div>
+                                           </div>
+                                           <div class="column col2">
+                                                <div class="itemMenu level-0">
+                                                    <a class="itemMenuName" href="#"><span>Jewellery</span></a>
+                                                </div>
+                                                <div class="itemSubMenu level-0">
+                                                    <div class="itemMenu level-0">
+                                                        <a href="#" class="itemMenuName level-0"><span>Casual</span></a>
+                                                        <a href="#" class="itemMenuName level-0"><span>Chinos</span></a>
+                                                        <a href="#" class="itemMenuName level-0"><span>Joggers</span></a>
+                                                        <a href="#" class="itemMenuName level-0"><span>Rings</span></a>
+                                                     </div>  
+                                                </div>
+                                            </div>
+                                            <div class="column col3">
+                                                <div class="itemMenu level-0">
+                                                    <a class="itemMenuName" href="#"><span>Kids</span></a>
+                                                </div>
+                                                <div class="itemSubMenu level-0">
+                                                    <div class="itemMenu level-0">
+                                                        <a href="#" class="itemMenuName level-0"><span>Bottoms</span></a>
+                                                        <a href="#" class="itemMenuName level-0"><span>Crochet</span></a>
+                                                        <a href="#" class="itemMenuName level-0"><span>Dresses</span></a>
+                                                        <a href="#" class="itemMenuName level-0"><span>Jeans</span></a>
+                                                     </div>  
+                                                </div>
+                                            </div>
+                                            <div class="column col4">
+                                                <div class="itemMenu level-0">
+                                                    <a class="itemMenuName" href="#"><span>Men</span></a>
+                                                </div>
+                                                <div class="itemSubMenu level-0">
+                                                    <div class="itemMenu level-0">
+                                                        <a href="#" class="itemMenuName level-0"><span>Blazers</span></a>
+                                                        <a href="#" class="itemMenuName level-0"><span>Boots</span></a>
+                                                        <a href="#" class="itemMenuName level-0"><span>Hoodies</span></a>
+                                                        <a href="#" class="itemMenuName level-0"><span>Pants</span></a>
+                                                     </div>  
+                                                </div>
+                                            </div>
+                                            <div class="column col5 lastCol">
+                                                <div class="itemMenu level-0">
+                                                    <a class="itemMenuName" href="#"><span>Women</span></a>
+                                                </div>
+                                                <div class="itemSubMenu level-0">
+                                                    <div class="itemMenu level-0">
+                                                        <a href="#" class="itemMenuName level-0"><span>Bags</span></a>
+                                                        <a href="#" class="itemMenuName level-0"><span>Bottoms</span></a>
+                                                        <a href="#" class="itemMenuName level-0"><span>Crochet</span></a>
+                                                        <a href="#" class="itemMenuName level-0"><span>Flat Sandals</span></a>
+                                                     </div>  
+                                                </div>
+                                            </div>
+                                       </div>
+                                   </div>
+                               </div>
+                               <li><a href="#">Privacy Policy</a></li>
+                               <li><a href="#">About Us</a></li>
+                               <li><a href="#">Shop</a></li>
+                               <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="box box-right">
+                            <div class="btn-group">
+                                <div class="dropdown-toggle search-button" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <div class="dropdown-menu search-content">
+                                    <input type="text" name="search" placeholder="Search entire store here..." class="form-control input-lg">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn btn-default btn-lg">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                                <div id="chart" class="btn-group btn-block">
+                                    <button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="btn dropdown-toggle" aria-expanded="true">
+                                        <i class="fa fa-shopping-bag"></i>
+                                        <span id="cart-total">0</span>
+                                        <div class="myCart">
+                                            <span>my cart</span>
+                                            <span class="total-price">0.00</span>
+                                        </div>
+                                    </button>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li>
+                                            <p class="text-center" cart-empty>Your shopping cart is empty!</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="box-setting">
+                                    <div class="btn-group">
+                                        <div class="dropdown-toggle setting-button" data-toggle="dropdown" aria-expanded="true">
+                                            <i class="fa fa-th"></i>
+                                        </div>
+                                        <div class="dropdown-menu setting-content">
+                                            <div class="account">
+                                                <button class="btn btn-link btn-link-current">My Account
+                                                    <i class="fa fa-angle-down"></i>
+                                                </button>
+                                                <div class="content" id="top-link">
+                                                    <ul class="ul-account list-unstyled">
+                                                        <li><a href="#">Register</a></li>
+                                                        <li><a href="#">Login</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="currency">
+                                                <button class="btn btn-link btn-link-current">Currency
+                                                    <i class="fa fa-angle-down"></i>
+                                                </button>
+                                                <div class="content" id="form-currency">
+                                                    <ul class="ul-account list-unstyled">
+                                                        <li><button class="item-selected currency-select btn btn-link btn-block">€ Euro</button></li>
+                                                        <li><button class="currency-select btn btn-link btn-block">£ Pound Sterling</button></li>
+                                                        <li><button class="currency-select btn btn-link btn-block">$ US Dollar</button></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="language">
+                                                    <button class="btn btn-link btn-link-current">Language: DE-DE
+                                                        <i class="fa fa-angle-down"></i>
+                                                    </button>
+                                                    <div class="content" id="top-link">
+                                                        <ul class="ul-account list-unstyled">
+                                                            <li><a href="#">English</a></li>
+                                                            <li><a href="#">Germany</a></li>
+                                                        </ul>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <main>
+            <div class="main-row full-width">
+                <div class="container">
+                    <div class="row">
+                        <div class="main-col col-sm-12 col-lg-12">
+                            <div class="banner">
+                                <div class="flexslider theme-default">
+                                    <div class="oc-loading"></div>
+                                    <!-- <div id="slider" class="nivoSlider">
+                                        <img src="images/slider1.jpg"  alt="slider1" title="#saleOff" visibility:hidden>
+                                        <img src="images/slider2.jpg" alt="slider2" title="#lifestyle" visibility:hidden>
+                                        <img src="images/slider3.jpg" alt="slider3" title="#handBag" visibility:hidden>
+                                        <img src="images/slider2.jpg" alt="slider2" title="#lifestyle" visibility:hidden>
+                                        <div class="slider-wrapper theme-default"> -->
+                                    <div id="slider" class="nivoSlider"> 
+                                        <img src="images/slider1.jpg" data-thumb="images/slider1.jpg" alt="slider1" title="#saleOff" /> 
+                                        <img src="images/slider2.jpg" data-thumb="images/slider2.jpg" alt="slider2" title="#lifestyle" />
+                                        <img src="images/slider3.jpg" data-thumb="images/slider3.jpg" alt="slider3" title="#handBag" />  
+                                    </div>
+                                   
+                                        
+                                    <div id="saleOff" class="html-nivo-caption">
+                                        <div class="container">
+                                            <div class="container-inner">
+                                                <div class="text-content">
+                                                    <h1 class="title" id="title1">Sale off</h1>
+                                                    <p id="paragraph-1">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie 
+                                                    consequat, vel illum dolore eu feugiat.</p>
+                                                    <span class="shoppingNow"><a href="#">Shopping now</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="lifestyle" class="html-nivo-caption">
+                                        <div class="container">
+                                            <div class="container-inner">
+                                                <div class="text-content">
+                                                    <h1 class="title" id="title2">lifestyle</h1>
+                                                    <p id="paragraph-2">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie 
+                                                    consequat, vel illum dolore eu feugiat.</p>
+                                                    <span class="shoppingNow"><a href="#">Shopping now</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="handBag" class="html-nivo-caption">
+                                        <div class="container">
+                                            <div class="container-inner">
+                                                <div class="text-content">
+                                                    <h1 class="title" id="title3">Hand Bag</h1>
+                                                    <p id="paragraph-3">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie 
+                                                    consequat, vel illum dolore eu feugiat.</p>
+                                                    <span class="shoppingNow"><a href="#">Shopping now</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- End flexslider -->
+                            </div> <!-- End banner-->
+                        </div>
+                    </div>
+                </div> <!-- End container -->
+            </div> <!-- End main-row full-width -->
+            <div class="main-row">
+                <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                       <div class="image">
+                           <a href="#">
+                                <img src="images/bigSale.jpg" alt="bigSale">
+                           </a>
+                       </div>
+                    </div>
+                    <div class="col-sm-12 col-md-8">
+                        <div class="image">
+                            <a href="#">
+                                <img src="images/upTo.jpg" alt="upTo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>    <!-- End main-row -->  
+        </main>
+        <script type="text/javascript">
+           
+           $(window).load(function() {
+            $('#slider').nivoSlider({
+                // effect: "random",
+                // slices: 15,
+                // boxCols: 8,
+                // boxRows: 4,
+                // manualAdvance: false,
+                // animSpeed: 500,
+                // pauseTime: 3000,
+                // startSlide: 0,
+                // controlNav: true,
+                // directionNav: true,
+                // controlNavThumbs: false,
+                // pauseOnHover: true,
+                // randomStrat: true,
+                // prevText: '<i class="ion-chevron-left"></i>',
+                // nextText: '<i class="ion-chevron-right"></i>',
+                // afterLoad: function(){
+                //     $('.oc-loading').css("display","block");
+                //     $('.timeloading').css('animation-duration'," 5000ms ");
+                // },						
+            });
+        });
+       
+    
+        </script>
+        <script>
+             $(document).ready(function() {
+  
+        $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      console.log($(window).scrollTop())
+        if ($(window).scrollTop() > 80) {
+            $('.navbar').addClass('navbar-fixed');
+
+        }
+        if ($(window).scrollTop() < 81) {
+        $('.navbar').removeClass('navbar-fixed');
+    }
+  });
+});
+        </script>
+            
+        
+        <link rel="stylesheet" href="js/library/nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="js/library/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/library/nivo-slider/jquery.nivo.slider.js"></script>
+        
+   
+        
+    </body>
+</html>

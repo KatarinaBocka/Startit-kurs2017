@@ -55,6 +55,8 @@ body {
       font-weight: 500;
       margin-top: 15px;
       margin-bottom: 60px; }
+  .landingHero .gridContentFull {
+    max-width: 100%; }
 
 .buttons .mainButton {
   color: #7289da;
@@ -87,6 +89,7 @@ body {
   .gridContentFull .imagesInner {
     position: relative;
     height: 638px;
+    overflow: hidden;
     /* ---------- Images 2 ----------- */ }
     .gridContentFull .imagesInner .shadow {
       background-color: rgba(0, 0, 0, 0.1);
@@ -260,3 +263,20 @@ footer {
       box-shadow: none;
       box-shadow: -5px 0px 10px 1px rgba(0, 0, 0, 0.2);
       top: 0px; }
+
+@media only screen and (min-width: 480px) and (max-width: 850px) {
+  .tabletHide {
+    display: none; }
+  .mobile {
+    left: calc(50% - 340px) !important;
+    bottom: 210px !important; }
+  .mobile1 {
+    left: calc(50% - 175px) !important;
+    bottom: 210px !important; }
+  .laptop {
+    left: calc(50% - 70px) !important;
+    bottom: 210px !important; }
+  .slusalice {
+    bottom: 315px !important; }
+  .shadow {
+    bottom: 190px !important; } }

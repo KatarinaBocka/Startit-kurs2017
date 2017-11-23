@@ -73,6 +73,9 @@ body {
             margin-bottom: 60px;
         }
     }
+    .gridContentFull {
+        max-width: 100%;
+    }
 }
 
 .buttons {
@@ -112,6 +115,7 @@ body {
     .imagesInner {
         position: relative;
         height: 638px;
+        overflow: hidden;
         .shadow {
             background-color: rgba(0, 0, 0, 0.1);
             height: 50px;
@@ -237,10 +241,6 @@ body {
         
     }
 }
-    // @-webkit-keyframes mover {
-    //     0% { transform: translateY(0); }
-    //     100% { transform: translateY(10px); }
-    // }
     @keyframes mover {
         0% { transform: translateY(0); }
         100% { transform: translateY(10px); }
@@ -328,5 +328,35 @@ footer {
             box-shadow: -5px 0px 10px 1px rgba(0,0,0,.2);
             top: 0px;
          }
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 850px){
+    .tabletHide {
+        display: none;
+    }
+    .mobile {
+        left: calc(50% - 340px) !important;
+        bottom: 210px !important;
+    }
+    .mobile1 {
+        left: calc(50% - 175px) !important;
+        bottom: 210px !important;
+    }
+    .laptop {
+        left: calc(50% - 70px) !important;
+        bottom: 210px !important;
+    }
+    .slusalice {
+        bottom: 315px !important;
+    }
+    .shadow {
+        bottom: 190px !important;
+    }
+    .navigationSection {
+        width: 30%;
+    }
+    .footerContent {
+        flex-flow: row-wrap;
     }
 }

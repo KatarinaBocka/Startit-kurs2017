@@ -780,7 +780,29 @@ body {
     width: 100%;
     max-width: 100%;
     vertical-align: middle;
-    height: 100%; } }
+    height: 100%; }
+  /* ----- Category ----- */
+  .categorys {
+    text-align: center;
+    margin: 50px; }
+    .categorys h2 {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 24px; }
+    .categorys .module-description {
+      display: flex;
+      justify-content: center; }
+      .categorys .module-description .category {
+        display: flex; }
+        .categorys .module-description .category li {
+          padding: 10px;
+          margin: 10px; }
+          .categorys .module-description .category li a {
+            color: #707070;
+            text-decoration: none;
+            font-size: 14px; }
+          .categorys .module-description .category li .activ {
+            color: #23232c; } }
 
 /*-~- libs -~-*/
 /*-~- partials -~-*/

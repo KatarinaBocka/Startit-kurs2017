@@ -1,0 +1,7 @@
+1. Napisati kod koji æe za svaki broj od 1 do 10 ispisati da li je paran ili neparan
+
+2. Izraèunati sumu prvih N prirodnih brojeva (npr. za broj 3 bi bilo 1 + 2 + 3 = 6 ). N  je ceo nenegativan broj
+
+3. Izraèunati faktorijel zadatog broja (faktorijel broja 5 je 1 * 2 * 3 * 4 * 5 = 120)
+
+4. Izraèunati koliko komada proizvoda možemo da kupimo ako znamo koliko para imamo na raèunu i koliko košta jedan proizvod (stanje na raèunu: 325 din, cena proizvoda 14 din)

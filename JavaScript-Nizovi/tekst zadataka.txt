@@ -1,0 +1,17 @@
+1. Napisati kod koji �e za svaki broj od 1 do 10 ispisati da li je paran ili neparan
+
+2. Izra�unati sumu prvih N prirodnih brojeva (npr. za broj 3 bi bilo 1 + 2 + 3 = 6 ). N  je ceo nenegativan broj
+
+3. Izra�unati faktorijel zadatog broja (faktorijel broja 5 je 1 * 2 * 3 * 4 * 5 = 120)
+
+4. Izra�unati koliko komada proizvoda mo�emo da kupimo ako znamo koliko para imamo na ra�unu i koliko ko�ta jedan proizvod (stanje na ra�unu: 325 din, cena proizvoda 14 din)
+
+Domaći
+Cene različitih proizvoda su zadate u vidu niza. Za proizvode čija je cena manja od 50 dodati porez od 18% u suprotnom porez od 8%. Izračunati krajnji trošak (sabrati cene i njihov porez). 
+cene = [5, 145, 69, 56, 13, 456, 78, 4, 30]
+Napisati program koji će za unetu reč proveriti da li je palindrom. Palindromi su reči koje se mogu čitati i sa leva na desno i sa desna na levo sa istim značenjem. 
+Npr:
+- ana
+- anna
+- anana
+- anavolimilovana

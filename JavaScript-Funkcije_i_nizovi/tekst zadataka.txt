@@ -1,0 +1,26 @@
+﻿1. Napisati funkciju koja prima broj od 1-10. Unutar funkcije generisati nasumičan broj (Math.random) od 1-10 i ispisati korisniku da li je pogodio broj ili ne.
+
+
+2. Napisati funkciju koja prima 4 broja, posebno sabira pozitivne,
+posebno negativne i vraća njihov proizvod (pozitivni * negativni)
+
+
+3. Napisati funkciju koja prima niz kao parameter i sabira prvi i poslednji element niza. Funkcija treba da podržava niz bilo koje veličine. 
+Hint: iskoristiti length.
+
+
+4. Napisati funkciju koja prima niz brojeva i sabira poslednja tri. Funkcija treba da podržava niz bilo koje veličine.
+
+
+5. Napisati funkciju koja prima niz i dva broja koji predstavljaju indexe. Zameniti vrednosti u nizu na datim indexima. Primer: ako su indexi 3 i 10  potrebno je zameniti vrednosti niz[3] i niz[10]
+
+
+6. Napisati funkciju koja prima niz i vraća drugi niz sa obrnutim redosledom elemenata, tako da je poslednji element u prvom nizu bude prvi element u poslednjem nizu, pretposlednji drugi, itd... 
+Primer: [15, 3, 9, 69, 100] > [100, 69, 9, 3, 15]
+
+
+7. Napisati funkciju koja prima tri parametra. Prvi parametar treba da bude niz brojeva, drugi parametar početni index i drugi krajnji index. Sabrati elemente niza od početnog do krajnjeg indexa.
+ 
+Primer ulaznih podataka [10, 33, 77, 50, 9, 17, 3, 120], 2, 5 > sabrati brojeve od 2. do 5. indexa uključujuci i 2. i 5.
+ 
+Primer izlaznih podataka: 153
